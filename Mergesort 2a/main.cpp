@@ -1,11 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <thread>
-#include <chrono>
 
-using namespace std::chrono;
-using std::vector, std::min, std::copy, std::thread;
+using std::vector, std::min, std::copy;
 
 void merge_sort(vector<int>& xs)
 {
